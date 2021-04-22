@@ -18,7 +18,7 @@ public class WorkerHandler {
      * @param id
      */
     public void addTaskAndWorker(String name, int id){
-        //TODO 02: Setzen Sie die Methode gemäß obiger Beschreibung um.
+        //TODO 03: Setzen Sie die Methode gemäß obiger Beschreibung um.
     }
 
     /**
@@ -39,8 +39,8 @@ public class WorkerHandler {
      */
     private String releaseAllTasksAndShowWorker(BinarySearchTree<Worker> tree){
         String output = "";
-        //TODO 03: Stellen Sie die gewünschte Ausgabe gemäß des vorhanden Baums dar. Dazu genügen die ersten drei Arbeiter und ihre IDs, die von dieser Methode ausgegeben werden.
-        //TODO 04: Setzen Sie die Methode gemäß obiger Beschreibung um.
+        //TODO 04a: Stellen Sie handschriftlich die gewünschte Ausgabe gemäß des vorhanden Baums dar (siehe MainController ab Zeile 13). Hierbei genügen die ersten drei Arbeiter und ihre IDs, die von dieser Methode ausgegeben werden.
+        //TODO 04b: Setzen Sie anschließend diese Methode gemäß obiger Beschreibung um.
         return output;
     }
 }

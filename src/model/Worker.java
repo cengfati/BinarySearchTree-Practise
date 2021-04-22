@@ -1,6 +1,7 @@
 package model;
 
-public class Worker implements ComparableContent<Worker>{
+//TODO 01: Setze das Interface um. Finde heraus, was der Suchschlüssel eines jeden Worker-Objekts ist.
+public class Worker{
     private String name;
     private Queue<Task> allTasks;
 
@@ -11,30 +12,6 @@ public class Worker implements ComparableContent<Worker>{
 
     public String getName(){
         return name;
-    }
-
-    @Override
-    public boolean isGreater(Worker pContent) {
-        if(this.getName().compareTo(pContent.getName()) > 0){
-            return true;
-        }
-        return false;
-    }
-
-    @Override
-    public boolean isEqual(Worker pContent) {
-        if(this.getName().compareTo(pContent.getName()) == 0){
-            return true;
-        }
-        return false;
-    }
-
-    @Override
-    public boolean isLess(Worker pContent) {
-        if(this.getName().compareTo(pContent.getName()) < 0){
-            return true;
-        }
-        return false;
     }
 
     public void addTask(int id){
