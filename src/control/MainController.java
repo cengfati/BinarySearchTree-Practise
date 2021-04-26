@@ -34,7 +34,7 @@ public class MainController {
         workerHandler.addTaskAndWorker("Claus",22);
         workerHandler.addTaskAndWorker("Claus",23);
 
-        //TODO 02: Stellen Sie den resultierenden binären Suchbaum angemessen dar, falls dieser die Arbeiter lexikographisch einfügt. In ihrem Baum müssen die IDs der Aufträge ebenfalls dargestellt werden. Überlegen Sie sich hierzu eine Darstellungsweise.
+        //TODO 02: Stellen Sie den resultierenden binären Suchbaum handschriftlich angemessen dar, falls dieser die Arbeiter lexikographisch einfügt. In ihrem Baum müssen die IDs der Aufträge ebenfalls dargestellt werden. Überlegen Sie sich hierzu eine Darstellungsweise.
     }
 
     public void releaseAllTasks(){
